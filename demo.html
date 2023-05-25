@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+   <p>  this is the  <strong> welcome </strong> paragraph tag </p>
+   <p>  this is the paragraph <b>  welcome </b> </p> 
+
+   
+   html structure:
+   html ( root element ):
+   tags : html,head,body,p,h1-h6,img,a,table
+   attributes :
+   html comments : ctrl + ?
+  
+
+
+  <!-- html comments
+    heading tags : 6 tags
+
+    h1 - h6
+
+-->   
+
+<h1>  welcome to web   </h1>
+<h2>  welcome to heading two </h2> 
+<h3>  welcome to heading three  </h3>
+<H4>  welcome to heading four </H4>
+<h5>  welcome to heading five   </h5>
+<h6>  welcome to heading six  </h6>
+
+
+<!-- paragraph p tag -->
+
+<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque suscipit blanditiis error exercitationem.
+     Dolores consequuntur doloribus repellendus suscipit quas, provident impedit officia aliquid vitae dignissimos corrupti voluptatibus veritatis eius.  <p>
+
+
+
+
+<!-- formating tags
+
+br tag : for break the line
+strong tag : for text bold ( SEO )
+b tag : text bold
+i tag : italic
+em tag : italic
+hr tag : for horizontal line
+--> 
+
+
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Natus quaerat consequatur ex sunt dicta? Ipsa dolore, vel accusamus quisquam neque pariatur beatae temporibus? <br> Laboriosam aut deleniti quis magni natus dicta?</p>
+
+
+
+
+<p style="color:red" id=" " class=" ">
+    this is the <strong> bold </strong> paragraph
+</p>
+
+<p> this is the <b> bold </b> </p>
+
+<p> this is the <em> paragraph seo </em> </p>
+
+<p> this is the <i> paragraph </i> </p>
+
+<hr>
+
+
+
+<!-- img tag
+
+  relative url/path
+ absulute url
+-->
+
+
+  <img src="https://homezonline.in/wp-content/uploads/2022/07/Simple-home-design.jpg"  alt="nature"
+  width="200" height="200">
+  
+
+
+
+<!--  img path ./  ../  -->
+   <img src="./images/boxed-water-is-better-jbcY_yvsDzk-unsplash.jpg" alt="home img" width="200" height="200">
+     
+
+
+
+
+     <!--  html list ul,ol,li
+ul = underlist
+ol = order list 
+li = list 
+-->
+
+<ul  type="circle">
+    <li>  html </li>
+    <li>  css  </li>
+    <li>  js   </li>
+
+<ol  type="number"> 
+     <li>  html </li>
+     <li>  css  </li>
+     <li>  js   </li>
+     
+     
+     <hr>
+
+
+     <ol type="i">
+         <li>  html  </li>
+         <li>  css  </li>
+         <li>  js   </li>
+
+
+     <ul type="box">
+         <li>  html </li>
+         <li>  css  </li>
+         <li>  js   </li>
+     </ul>
+
+
+  <!--  html = hyper text markup lang 
+  
+  
+  a tag: 
+  ancor tag
+  target = _blank : for open new tab
+
+
+-->
+
+ <a href="https://www.amazon.in/" target="_blank">  search product </a>
+
+
+
+ 
+
+ <!-- html tables
+th,tr,td
+-->
+<style>
+
+table,tr,td,th {
+ border: 1px solid red ;
+ border-collapse: collapse;
+ padding: 20px;
+
+} 
+  
+</style>
+
+<hr>
+
+<table>
+
+<th> demo 1 </th>
+<th> demo 2 </th>
+<th> demo 3 </th>
+<th> demo 4 </th>
+<th> demo 5 </th>
+
+
+<tr>
+  <th> demo 11 </th>
+  <td> html </td>
+  <td> css </td>
+  <td> js </td>
+  <td> react js </td>
+</tr>
+
+<tr> 
+  <th> demo 22 </th>
+  <td> demo 1 </td>
+  <td> demo 2 </td>
+  <td> demo 3</td>
+  <td> demo 4 </td>
+</tr> 
+
+<tr>
+  <th> data 33 </th>
+  <td> data 1 </td>
+  <td> data 2 </td>
+  <td> data 3 </td>
+  <td> data 4 </td>
+</tr>
+
+</table>
+
+<hr>
+<br>
+
+
+<!-- html forms -->
+<h1> registration form </h1>
+
+<!-- name,email,password,date,mobile number,upload photo,address,male-female,chekbox,options -->
+
+<form action="">
+
+  <label for=""> First Name :
+    <input type="text" required maxlength="">
+  </label>
+
+
+  <label for=""> Last Name :
+    <input type="text" required>
+  </label>
+
+  <br>
+  <br>
+
+
+  <label for=""> Mobile No :
+    <input type="number" required >
+  </label>
+
+  <label for=""> password :
+    <input type="password" required maxlength="6">
+  </label>
+
+<br>
+<br>
+
+
+<label for=""> Email Id :
+  <input type="email" required>
+ </label>
+
+<label for=""> Date of Birth :
+  <input type="date">
+</label>
+
+<label for=""> Upload Photo :
+  <input type="file" multiple>
+</label>
+
+<br>
+<br>
+
+<label for=""> Address :
+  <textarea name="" id="" cols="50" rows="5"> </textarea>
+</label>
+
+<br>
+<br>
+
+
+<label for=""> Select Gender :
+  <input type="radio" name="gender"> Male :
+  <input type="radio" name="gender"> Female :
+  <input type="radio" name="gender"> Other :
+</label>
+
+
+<label for=""> Select Education :
+  <select name="" id="">
+    <option value=""> Select Education </option>
+    <option value=""> SSC </option>
+    <option value=""> HHC </option>
+    <option value=""> GRADUATION </option>
+    <option value=""> POST GRADUATION </option>
+    <option value=""> DEGREE  </option> 
+  </select>
+</label>
+
+
+<br>
+<br>
+
+
+<label for=""> Select Fav Colors :
+  <input type="checkbox"> red :
+  <input type="checkbox"> blue :
+  <input type="checkbox"> green :
+  <input type="checkbox"> pink : 
+</label>
+
+<br>
+<br>
+
+
+
+<label for=""> Select Time :
+  <input type="time">
+</label>
+
+
+<label for=""> Paste Url :
+  <input type="url">
+</label>
+
+<br>
+<br>
+
+<label for=""> Select color :
+  <input type="color">
+</label>
+
+<label for=""> Select Range :
+  <input type="range">
+</label>
+
+
+<br> 
+<br>
+
+ 
+<label for=""> Search Anything :
+  <input type="search">
+</label>
+
+
+<br>
+<br>
+
+
+<input type="reset">
+<input type="submit" name="" id="">
+
+</form>
+
+
+<!-- day 2 -->
+
+
+
+ <!-- h1 - h6,table,form,ul,li,ol
+block level :
+full width
+next line start
+width - hight
+
+Inline Level:
+no full width
+no next line start
+no width - hight 
+
+-->
+
+<style>
+  h1{
+    /* border: 1px solid red; */
+    /* width: 400px; */
+    /* height: 200px; */
+  }
+
+
+  h3{
+    /* border: 1px solid red; */
+
+  }
+
+a{
+  /* border: 1px solid red; */
+  /* margin-right: 20px; */
+  /* width: 200px; */
+  /* height: 300px; */
+
+}
+
+div{
+  /* border: 1px solid red; */
+  /* width: 50%; */
+}
+
+span{
+  /* color: red; */
+  /* border: 1px solid red; */
+}
+
+
+</style>
+
+
+<h1> heading </h1>
+
+ <h1> heading </h1>
+ <h3> heading </h3>
+
+<hr>
+
+
+<a href=""> click me </a>
+<a href=""> click here </a>
+
+<div>
+
+  <h5> div here </h5>
+
+</div>
+
+
+<div> 
+
+  <h5> next div </h5>
+
+</div>
+
+  <p> this is the <span> paragraph </span> </p>
+
+<!-- id,class -->
+
+<!-- download from a tag -->
+
+<a href=""></a>
+
+
+<!-- day 3 -->
+
+
+<!-- html id,class -->
+
+<style>
+  h1{
+   color:red;
+  }
+
+  #demo_one{
+    color: blue;
+  }
+
+
+  #demo_two{
+    color: orange;
+  }
+
+
+  .demo{
+    color: pink;
+  }
+
+
+  .demo4{
+    font-size: 10px;
+  }
+
+</style>
+
+
+<h1 id="demo_1 demo_three demo5" class="demo4"> heading 0 </h1>
+<h1 id="demo_two"> heading 1 </h1>
+
+<h1 class="demo demo1 demo2 demo4"> heading 2 </h1>
+<h1 class="demo"> heading 3 </h1>
+
+
+
+<!-- multimedia tag -->
+
+<!-- <iframe src=""-->
+
+
+
+
+
+
+
+</body>
+</html>
